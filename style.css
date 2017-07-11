@@ -1,0 +1,35 @@
+*, :before, :after {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+body {
+  box-sizing: border-box;
+
+  font-family: "Roboto", "Noto Sans", sans-serif;
+}
+
+textarea {
+  width: calc(100% - 100px);
+  height: 2em;
+
+  font-size: inherit;
+  font-weight: 700;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+}
+
+button.invisible {
+  display: none;
+}
+
+output {
+  display: block;
+}
+
+.last-translation-step {
+  font-weight: 700;
+}
